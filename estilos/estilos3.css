@@ -1,0 +1,29 @@
+/*.principal {
+    font-size: 20px;
+    color:red;
+}
+.secundario {
+    font-size: 48px;
+    color:green;
+}*/
+
+p[name] {
+    font-size: 20px;
+    color:blue;
+}
+p[name~="el"] {
+
+    color:green;
+}
+p[name^="d"] {
+
+    color:coral;
+}
+p[name$="ista"] {
+
+    color:brown;
+}
+p[name*="ar"] {
+
+    color:rgb(247, 5, 5);
+}

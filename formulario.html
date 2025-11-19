@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer forumulario</title>
+</head>
+
+<body>
+    <form action="manejador.html" method="post" name="formulario1"></form>
+    <table border="2" align="center">
+        <tr>
+            <td>
+                
+                
+                    <label>Usuario</label>
+                    <input type="text" name="usuario" value="Dame tu usuario">
+                    <br>
+
+                    <br>
+                    <label for="DNI">DNI:</label>
+                    <input type="text" name="dni" maxlength="9">
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" maxlength="4" checked="">
+                    <br>
+                    <label for="dato">Sexo:</label>
+                    <input type="text" name="dato" maxlength="8" disabled placeholder="Hombre">
+                    <br>
+                    <label for="gustospersonales">Música:</label>
+                    <input type="checkbox" name="gustospersonales" value="1">
+                    <br>
+                    <label for="gustospersonales">Deporte:</label>
+                    <input type="checkbox" name="gustospersonales" value="1">
+                    <br>
+                    <label for="gustospersonales">Senderismo:</label>
+                    <input type="checkbox" name="gustospersonales" value="1">
+                    <br>
+                    <label for="ciclo">LLMM:</label>
+                    <input type="radio" value="1" name="ciclo" checked>
+                    <br>
+                    <label for="ciclo">Programación:</label>
+                    <input type="radio" value="1" name="ciclo2">
+                    <br>
+                    <label for="ciclo">ED:</label>
+                    <input type="radio" value="1" name="ciclo3">
+
+                    <br>
+                    <label for="ficheros">Fichero:</label>
+                    <input type="file" name="ficheros" accept=".doc;.jpg">
+                    <br>
+                    <input type="submit" value="Pulsa">
+                    <br>
+                    <input type="date" name="fecha" id="fec" value="2025-01-01">
+                    <br>
+                    <input type="color" name="color" id="color" value="#4d0000">
+                    <br>
+
+                    <fieldset>
+                        <legend>COMENTARIO</legend>
+                        <label for="multilinea">Comentario:</label>
+                        <textarea id="comentario" name="texto" cols="10" rows="4"
+                            placeholder="Introduce texto"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>CONCESIONARIOS</legend>
+                        <select id="coches" name="selcoches" size="7">
+                            <option disabled selected>Introduce coche</option>
+                            <optgroup label="---Berlinas---">
+                                <option value="1">Volvo</option>
+                                <option value="2">Toyota</option>
+                            </optgroup>
+                            <optgroup label="---SUV---">
+                                <option value="3">Renault</option>
+                                <option value="4">Mercedes</option>
+                            </optgroup>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+
+                        <legend> Otro tipo de lista</legend>
+                        <label for="datos">Teléfono institutos:
+                        </label>
+                        <input type="tel" name="telefono" list="datos">
+                        <datalist id="datos">
+                            <option value="927535353" label="IES Zurbarán"></option>
+                            <option value="927545454" label="IES Albalat"></option>
+                            <option value="927555555" label="IES Augusóbriga"></option>
+                        </datalist>
+
+                   </fieldset>
+                   <tr>
+                    <td>
+                        <button type="submit"><img src="boton.jpg" alt="boton enviar" width="50" height="50"></button>
+                        <input type="reset">
+                        <button type="reset">Borrar Form</button>
+                    </td>
+                </tr>
+
+
+                
+
+            </td>
+        </tr>
+
+        
+    </table>
+</form>
+
+</body>
+
+</html>
