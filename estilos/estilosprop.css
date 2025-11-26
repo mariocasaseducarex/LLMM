@@ -1,0 +1,25 @@
+#uno {
+
+    font-size: 24px;
+    color: brown;
+    background-color: rgb(114, 136, 136);
+    text-align: right;
+}
+
+#dos {
+    font: italic bold 14px Arial;
+    letter-spacing:5px;   
+}
+
+#dos a:link {
+    text-decoration: none;
+    color:blue;
+}
+#dos a:visited {
+    text-decoration: none;
+    color:rgb(80, 204, 78);
+}
+#dos a:hover {
+    text-decoration: none;
+    color:rgb(207, 101, 44);
+}
