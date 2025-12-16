@@ -8,12 +8,12 @@
     border: 5px solid #1a1a1a;
     border-radius:60px;
     background-color: #ccccff;
-    transition:transform 0.5s ease,background-color 1s ease;
+    transition:background-color 1s ease;
 
     
 }
 #capitulo:hover {
-    transform:translate(100px,-150px);
+    
     background-color: greenyellow;
 }
 #filtro1 {

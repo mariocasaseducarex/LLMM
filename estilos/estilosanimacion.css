@@ -1,0 +1,30 @@
+
+#capitulo {
+    width: 350px;
+    text-align: center;
+    font:bold 40px Arial;
+    margin:60px auto;
+    border:2px solid black;
+    border-radius: 60px;
+    animation:mianimacion 1s ease 4 normal none;
+    
+}
+@keyframes mianimacion {
+    0% {
+        background-color:#ffffff;
+    }
+    25% {
+        background-color:#b49393;
+    }
+    50% {
+        background-color:#481616;
+    }
+    75% {
+        background-color:#270c1c;
+        transform:scale(1.25,1.25);
+        color:white;
+    }
+    100% {
+        background-color:#67f90b;
+    }
+}
