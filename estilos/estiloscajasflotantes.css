@@ -1,0 +1,37 @@
+.cajapadre {
+    width: 600px;
+    margin: 50px auto;
+    border: 3px solid;
+    background:#ffdddd;
+   }
+   .caja1 {
+    float:left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #ffaaaa;
+   }
+   .caja2 {
+    float:left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #ddffdd;
+   }
+   .caja3 {
+    float:right;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #ddddff;
+   }
+   .caja4 {
+    float:right;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #ffffdd;
+   }
+   .restaurar {
+    clear: both;
+   }

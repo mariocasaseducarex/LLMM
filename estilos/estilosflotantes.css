@@ -1,0 +1,31 @@
+main{
+    width:800px;
+    overflow: auto;
+    margin:20px auto;
+    padding: 10px;
+    background:#7373f4;
+    color: #000080;
+    font: normal 26px Arial;
+    text-align: justify;
+   }
+   header, footer{
+    width:900px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #ccccff;
+    color: #000080;
+    font: bold 26px Arial,
+   Verdana;
+    border: 5px solid
+   #000080;
+    border-radius: 20px;
+    }
+    main img{
+        
+        margin:10px;
+        float:right;
+    }
+    .salto_eje {
+        clear:both;
+    }
