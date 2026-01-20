@@ -1,0 +1,44 @@
+.rotulo {
+    width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #ddddff;
+    font: bold 26px Arial, Verdana;
+    color: #000080;
+    border: 5px solid #000080;
+    border-radius: 20px;
+}
+
+.cajapadre {
+    width: 500px;
+    height: 330px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor {
+    position: absolute;
+    top: 0px;
+    width: 500px;
+    height: 380px;
+}
+
+.contenedorsuperior {
+    width: 500px;
+    height: 330px;
+}
+
+.contenedorinferior {
+    width: 500px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgba(200, 200, 200, 0.8);
+    text-align: center;
+    font: bold 26px Arial, Verdana;
+}
+
+.contenedor:hover {
+    top: -50px;
+}
