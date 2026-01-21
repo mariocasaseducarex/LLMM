@@ -1,0 +1,27 @@
+.uno {
+    background-color:aqua;
+    width: 300px;
+}
+.dos {
+    color:white;
+    background-color: blueviolet;
+    text-align: right;
+}
+.tres {
+    background-color: brown;
+    width: 500px;
+}
+.cuatro {
+    background-color: bisque;
+}
+.cinco {
+    background-color: chartreuse;
+    display:inline-block;
+    width: 200px;
+}
+.pantalla{
+    background-color: aquamarine;
+    width: 400px;
+    text-align: center;
+    display:inline;
+}

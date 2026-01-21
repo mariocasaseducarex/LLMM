@@ -23,7 +23,7 @@ main {
     text-align: justify;
     column-count: 3;
     column-gap: 20px;
-    column-fill: auto;
+    column-rule: 2px solid rgb(1, 1, 1);
 }
 h1 {
     column-span: all;
